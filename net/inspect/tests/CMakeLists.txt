@@ -1,0 +1,2 @@
+add_executable(Inspector_test Inspector_test.cc)
+target_link_libraries(Inspector_test jmuduo_inspect jmuduo_net jmuduo_http)

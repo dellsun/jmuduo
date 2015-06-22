@@ -1,0 +1,71 @@
+add_executable(Timestamp_unittest Timestamp_unittest.cc)
+target_link_libraries(Timestamp_unittest jmuduo_base)
+
+add_executable(Atomic_unittest Atomic_unittest.cc)
+target_link_libraries(Atomic_unittest jmuduo_base)
+
+add_executable(Exception_test Exception_test.cc)
+target_link_libraries(Exception_test jmuduo_base)
+
+add_executable(Date_unittest Date_unittest.cc)
+target_link_libraries(Date_unittest jmuduo_base)
+
+add_executable(TimeZone_unittest TimeZone_unittest.cc)
+target_link_libraries(TimeZone_unittest jmuduo_base)
+
+add_executable(LogStream_test LogStream_test.cc)
+target_link_libraries(LogStream_test jmuduo_base boost_unit_test_framework)
+
+add_executable(LogStream_bench LogStream_bench.cc)
+target_link_libraries(LogStream_bench jmuduo_base)
+
+add_executable(Singleton_test Singleton_test.cc)
+target_link_libraries(Singleton_test jmuduo_base pthread)
+
+add_executable(ThreadLocal_test ThreadLocal_test.cc)
+target_link_libraries(ThreadLocal_test jmuduo_base pthread)
+
+add_executable(Mutex_test Mutex_test.cc)
+target_link_libraries(Mutex_test jmuduo_base)
+
+add_executable(ThreadLocalSingleton_test ThreadLocalSingleton_test.cc)
+target_link_libraries(ThreadLocalSingleton_test jmuduo_base pthread)
+
+add_executable(Thread_test Thread_test.cc)
+target_link_libraries(Thread_test jmuduo_base)
+
+add_executable(Thread_bench Thread_bench.cc)
+target_link_libraries(Thread_bench jmuduo_base)
+
+add_executable(ThreadPool_test ThreadPool_test.cc)
+target_link_libraries(ThreadPool_test jmuduo_base)
+
+add_executable(BlockingQueue_test BlockingQueue_test.cc)
+target_link_libraries(BlockingQueue_test jmuduo_base)
+
+add_executable(BlockingQueue_bench BlockingQueue_bench.cc)
+target_link_libraries(BlockingQueue_bench jmuduo_base)
+
+add_executable(BoundedBlockingQueue_test BoundedBlockingQueue_test.cc)
+target_link_libraries(BoundedBlockingQueue_test jmuduo_base)
+
+add_executable(FileUtil_test FileUtil_test.cc)
+target_link_libraries(FileUtil_test jmuduo_base)
+
+add_executable(Fork_test Fork_test.cc)
+target_link_libraries(Fork_test jmuduo_base)
+
+add_executable(ProcessInfo_test ProcessInfo_test.cc)
+target_link_libraries(ProcessInfo_test jmuduo_base)
+
+add_executable(LogFile_test LogFile_test.cc)
+target_link_libraries(LogFile_test jmuduo_base)
+
+add_executable(AsyncLogging_test AsyncLogging_test.cc)
+target_link_libraries(AsyncLogging_test jmuduo_base)
+
+add_executable(Logging_test Logging_test.cc)
+target_link_libraries(Logging_test jmuduo_base)
+
+add_executable(SingletonThreadLocal_test SingletonThreadLocal_test.cc)
+target_link_libraries(SingletonThreadLocal_test jmuduo_base pthread)

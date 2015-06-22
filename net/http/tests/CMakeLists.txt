@@ -1,0 +1,5 @@
+add_executable(HttpRequest_unittest HttpRequest_unittest.cc)
+target_link_libraries(HttpRequest_unittest jmuduo_base jmuduo_http jmuduo_net boost_unit_test_framework)
+
+add_executable(HttpServer_test HttpServer_test.cc)
+target_link_libraries(HttpServer_test jmuduo_net jmuduo_http jmuduo_base)
